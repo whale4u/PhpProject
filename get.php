@@ -5,4 +5,5 @@ $p = $_GET["p"];
 echo $p;
 echo '<br/>';
 echo `whoami`;
+echo '${whoami}';
 ?>
