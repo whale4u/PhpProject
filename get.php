@@ -4,6 +4,6 @@ echo '<br/>';
 $p = $_GET["p"];
 echo $p;
 echo '<br/>';
-echo `whoami`;
+echo `find /var/www/ -name flag`;
 echo '${whoami}';
 ?>
